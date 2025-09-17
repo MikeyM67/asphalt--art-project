@@ -1,0 +1,181 @@
+import org.code.neighborhood.*;
+public class YolkPainter extends PainterPlus{
+
+
+
+
+  //This method fully draws the yolk and colors it in
+public void makeYolk(){
+
+ move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    move();
+  move();
+    move();
+  move();
+  move();
+  move();
+  move();
+  turnLeft();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("orange");
+  move();
+  paint("orange");
+  turnRight();
+  move();
+  paint("orange");
+  turnLeft();
+  move();
+  paint("orange");
+  turnRight();
+  move();
+  paint("orange");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+ turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  turnLeft();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  turnLeft();
+  move();
+  turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  move();
+  turnRight();
+  move();
+  move();
+  paint("yellow");
+  turnLeft();
+    move();
+  turnLeft();
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  paint("yellow");
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  turnRight();
+  move();
+  paint("yellow");
+  turnLeft();
+  move();
+  turnLeft();
+  move();
+  paint("white");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

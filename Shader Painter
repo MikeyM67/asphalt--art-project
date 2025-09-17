@@ -1,0 +1,86 @@
+import org.code.neighborhood.*;
+
+public class ShaderPainter extends PainterPlus{
+
+//This method allows for the painter to shade a little part of the egg
+public void shade(){
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  turnRight();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  paint("SILVER");
+  move();
+  paint("SILVER");
+  turnRight();
+  move();
+  paint("SILVER");
+  turnLeft();
+  move();
+  paint("SILVER");
+  move();
+  paint("SILVER");
+  move();
+  paint("SILVER");
+  turnRight();
+  move();
+  paint("SILVER");
+  turnLeft();
+  move();
+  paint("SILVER");
+  turnRight();
+  move();
+  paint("SILVER");
+  move();
+  paint("SILVER");
+  move();
+  paint("SILVER");
+  turnLeft();
+  move();
+  paint("SILVER");
+  turnRight();
+  move();
+  paint("SILVER");
+  
+}
+
+  
+}

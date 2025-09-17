@@ -1,0 +1,42 @@
+import org.code.neighborhood.*;
+
+public class NeighborhoodRunner {
+  public static void main(String[] args) {
+
+//This painter will color the entire background white
+   BackgroundPainter j = new BackgroundPainter ();
+  j.setPaint(10000);   
+  j.paintBackground("white");
+
+
+  //This painter creates the outline of the drawing
+    
+    OutlinePainter k = new OutlinePainter ();
+  k.fullOutline();
+  k.moveToCorner();
+
+
+   //This painter creates the entire yolk of the egg and adds shading 
+    YolkPainter i = new YolkPainter();
+   i.makeYolk();
+    i.moveToCorner(); 
+
+ 
+    //This painter will add shading to the egg white
+    ShaderPainter o = new ShaderPainter();
+    o.shade();
+    o.moveToCorner();
+  
+  //This painter creates a frame around the whole picture
+  FramePainter p = new FramePainter();
+  p.makeFrame();
+  p.turnRight();
+   p.makeFrame();
+   p.turnRight();
+   p.makeFrame();
+   p.turnRight();
+   p.makeFrame();
+  }
+
+  
+}

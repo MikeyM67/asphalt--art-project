@@ -1,0 +1,136 @@
+import org.code.neighborhood.*;
+public class OutlinePainter extends PainterPlus{
+
+
+//This method is used for creating a forth of the outline
+public void outline(){
+   paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+  turnRight();
+  move();
+  turnLeft();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+  turnRight();
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+     paint("black");
+  move();
+  turnLeft();
+  move();
+  turnRight();
+   
+
+  
+}
+
+
+ // This method makes the outline a little bit more connected
+public void paintCorner(){
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+ paint("black");
+}
+
+
+
+  //This method creates the full outline of the egg
+public void fullOutline(){
+   move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    move();
+  move();
+    move();
+    turnLeft();
+    outline();
+    outline();
+    outline();
+    outline();
+  turnRight();
+  move();
+  move();
+  turnRight();
+  move();
+  move();
+  move();
+  move();
+  paint("black");
+  turnLeft();
+  turnLeft();
+  paintCorner();
+  turnRight();
+  paintCorner();
+  turnRight();
+  paintCorner();
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

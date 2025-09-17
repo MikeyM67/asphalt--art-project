@@ -1,0 +1,20 @@
+import org.code.neighborhood.*;
+
+public class FramePainter extends PainterPlus{
+  
+  public void makeFrame(){
+  if(canMove()){
+    while(canMove()){
+    paint("black");
+    move();
+    }
+  }
+  else{
+    turnRight();
+  }
+
+  }
+}
+
+
+
